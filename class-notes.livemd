@@ -66,7 +66,7 @@ Topics (ADD)
   * [ ] keyword list
   * [ ] sigils
   * [ ] for comprehension
-  * [ ] strings/charlists
+  * [x] strings/charlists
 * OTP and Behavior
   * [x] Base Elixir (counter core)
   * [ ] GenServers 
@@ -80,7 +80,7 @@ Topics (ADD)
     - [ ] Batch
     ```
 * LLM
-  * [ ] throw it away
+  * [x] throw it away
   * [ ] Red/Green indicators
   * [ ] Skills
   * [ ] Usage Rules
@@ -88,4 +88,32 @@ Topics (ADD)
 
 <!-- livebook:{"break_markdown":true} -->
 
+Charlists
 
+<!-- livebook:{"break_markdown":true} -->
+
+charlists are a blind spot because Ruby uses both " and ' for strings, but in Elixir they are different!
+
+```elixir
+<<99, 97, ?t>>
+
+```
+
+
+
+```elixir
+[99, 97, 116]
+
+```
+
+```elixir
+'cat'
+```
+
+```elixir
+"cat" == ~c"cat"
+```
+
+```elixir
+[99, 97, 116]
+```
