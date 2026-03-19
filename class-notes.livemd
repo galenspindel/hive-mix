@@ -69,9 +69,9 @@ Topics (ADD)
   * [x] strings/charlists
 * OTP and Behavior
   * [x] Base Elixir (counter core)
-  * [ ] GenServers 
-    * [ ] Supervision
-    * [ ] Behaviours
+  * [x] GenServers 
+    * [x] Supervision
+    * [x] Behaviours
 * Phoenix Lifecycle
   * [ ] Endpoints
   * [ ] Application
